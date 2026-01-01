@@ -1,0 +1,40 @@
+/* Genel görünüm */
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f7f8;
+  margin: 0;
+}
+
+/* Üst ve alt bar */
+header, footer {
+  padding: 12px;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* Sohbet alanı */
+#chat {
+  padding: 16px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* Mesaj baloncukları */
+.msg {
+  padding: 10px 12px;
+  border-radius: 12px;
+  margin: 8px 0;
+  max-width: 70%;
+}
+
+/* Yapay zekâ mesajı */
+.msg.ai {
+  background: #e9f1ff;
+  color: #174ea6;
+}
+
+/* Kullanıcı mesajı */
+.msg.user {
+  background: #fff;
+  border: 1px solid #ddd;
+}
